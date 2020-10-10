@@ -246,7 +246,7 @@ minetest.register_node("blocks:block_magenta", {
 minetest.register_alias("Magenta Block", "blocks:block_magenta")
 
 minetest.register_craft({
-	output = 'blocks:block_cyan 8',
+	output = 'blocks:block_magenta 8',
 	recipe = {
 		{'group:wood', 'group:wood', 'group:wood'},
 		{'group:wood', 'group:wood', 'group:wood'},
@@ -256,8 +256,140 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
-	recipe = "blocks:block_cyan",
+	recipe = "blocks:block_magenta",
 	output = "default:wood",
 })
 
-ItemStack({ name = "Cyan Block", count = 100 })
+ItemStack({ name = "Magenta Block", count = 100 })
+
+
+
+minetest.register_node("blocks:block_orange", {
+        description = "Orange Block",
+	tiles = {"blocks_orange.png"},
+	groups = {choppy=2,flammable=1},
+})
+
+minetest.register_alias("Orange Block", "blocks:block_orange")
+
+minetest.register_craft({
+	output = 'blocks:block_orange 8',
+	recipe = {
+		{'group:wood', 'group:wood', 'group:wood'},
+		{'group:wood', 'group:wood', 'group:wood'},
+		{'group:wood', 'group:wood', 'dye:orange'},
+	}
+})
+
+minetest.register_craft({
+	type = "cooking",
+	recipe = "blocks:block_orange",
+	output = "default:wood",
+})
+
+ItemStack({ name = "Orange Block", count = 100 })
+
+
+minetest.register_node("blocks:block_pink", {
+        description = "Pink Block",
+	tiles = {"blocks_pink.png"},
+	groups = {choppy=2,flammable=1},
+})
+
+minetest.register_alias("Pink Block", "blocks:block_pink")
+
+minetest.register_craft({
+	output = 'blocks:block_pink 8',
+	recipe = {
+		{'group:wood', 'group:wood', 'group:wood'},
+		{'group:wood', 'group:wood', 'group:wood'},
+		{'group:wood', 'group:wood', 'dye:pink'},
+	}
+})
+
+minetest.register_craft({
+	type = "cooking",
+	recipe = "blocks:block_pink",
+	output = "default:wood",
+})
+
+ItemStack({ name = "Pink Block", count = 100 })
+
+
+minetest.register_node("blocks:block_red", {
+        description = "Red Block",
+	tiles = {"blocks_red.png"},
+	groups = {choppy=2,flammable=1},
+})
+
+minetest.register_alias("Red Block", "blocks:block_red")
+
+minetest.register_craft({
+	output = 'blocks:block_red 8',
+	recipe = {
+		{'group:wood', 'group:wood', 'group:wood'},
+		{'group:wood', 'group:wood', 'group:wood'},
+		{'group:wood', 'group:wood', 'dye:red'},
+	}
+})
+
+minetest.register_craft({
+	type = "cooking",
+	recipe = "blocks:block_red",
+	output = "default:wood",
+})
+
+ItemStack({ name = "Red Block", count = 100 })
+
+
+minetest.register_node("blocks:block_purple", {
+        description = "Purple Block",
+	tiles = {"blocks_purple.png"},
+	groups = {choppy=2,flammable=1},
+})
+
+minetest.register_alias("Purple Block", "blocks:block_purple")
+
+minetest.register_craft({
+	output = 'blocks:block_purple 8',
+	recipe = {
+		{'group:wood', 'group:wood', 'group:wood'},
+		{'group:wood', 'group:wood', 'group:wood'},
+		{'group:wood', 'group:wood', 'dye:purple'},
+	}
+})
+
+minetest.register_craft({
+	type = "cooking",
+	recipe = "blocks:block_purple",
+	output = "default:wood",
+})
+
+ItemStack({ name = "Purple Block", count = 100 })
+
+
+
+minetest.register_node("blocks:block_yellow", {
+        description = "Yellow Block",
+	tiles = {"blocks_yellow.png"},
+	groups = {choppy=2,flammable=1},
+})
+
+minetest.register_alias("Yellow Block", "blocks:block_yellow")
+
+minetest.register_craft({
+	output = 'blocks:block_yellow 8',
+	recipe = {
+		{'group:wood', 'group:wood', 'group:wood'},
+		{'group:wood', 'group:wood', 'group:wood'},
+		{'group:wood', 'group:wood', 'dye:yellow'},
+	}
+})
+
+minetest.register_craft({
+	type = "cooking",
+	recipe = "blocks:block_yellow",
+	output = "default:wood",
+})
+
+ItemStack({ name = "Yellow Block", count = 100 })
