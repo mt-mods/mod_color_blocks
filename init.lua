@@ -2,6 +2,7 @@
         description = "Black Block",
 	tiles = {"blocks_black.png"},
 	groups = {choppy=2,flammable=1},
+	is_ground_content = false,
 })
 
 minetest.register_alias("Black Block", "color_blocks:block_black")
@@ -27,6 +28,7 @@ minetest.register_node("color_blocks:block_white", {
         description = "White Block",
 	tiles = {"blocks_white.png"},
 	groups = {choppy=2,flammable=1},
+	is_ground_content = false,
 })
 
 minetest.register_alias("White Block", "color_blocks:block_white")
@@ -52,6 +54,7 @@ minetest.register_node("color_blocks:block_green", {
         description = "Green Block",
 	tiles = {"blocks_green.png"},
 	groups = {choppy=2,flammable=1},
+	is_ground_content = false,
 })
 
 minetest.register_alias("Green Block", "color_blocks:block_green")
@@ -78,6 +81,7 @@ minetest.register_node("color_blocks:block_dark_green", {
         description = "Dark Green Block",
 	tiles = {"blocks_dark_green.png"},
 	groups = {choppy=2,flammable=1},
+	is_ground_content = false,
 })
 
 minetest.register_alias("Dark Green Block", "color_blocks:block_dark_green")
@@ -106,6 +110,7 @@ minetest.register_node("color_blocks:block_blue", {
         description = "Blue Block",
 	tiles = {"blocks_blue.png"},
 	groups = {choppy=2,flammable=1},
+	is_ground_content = false,
 })
 
 minetest.register_alias("Blue Block", "color_blocks:block_blue")
@@ -133,6 +138,7 @@ minetest.register_node("color_blocks:block_brown", {
         description = "Brown Block",
 	tiles = {"blocks_brown.png"},
 	groups = {choppy=2,flammable=1},
+	is_ground_content = false,
 })
 
 minetest.register_alias("Brown Block", "color_blocks:block_brown")
@@ -160,6 +166,7 @@ minetest.register_node("color_blocks:block_cyan", {
         description = "Cyan Block",
 	tiles = {"blocks_cyan.png"},
 	groups = {choppy=2,flammable=1},
+	is_ground_content = false,
 })
 
 minetest.register_alias("Cyan Block", "color_blocks:block_cyan")
@@ -187,6 +194,7 @@ minetest.register_node("color_blocks:block_dark_gray", {
         description = "Dark Grey Block",
 	tiles = {"blocks_dark_grey.png"},
 	groups = {choppy=2,flammable=1},
+	is_ground_content = false,
 })
 
 minetest.register_alias("Dark Grey Block", "color_blocks:block_dark_grey")
@@ -214,6 +222,7 @@ minetest.register_node("color_blocks:block_grey", {
         description = "Grey Block",
 	tiles = {"blocks_grey.png"},
 	groups = {choppy=2,flammable=1},
+	is_ground_content = false,
 })
 
 minetest.register_alias("Grey Block", "color_blocks:block_grey")
@@ -241,6 +250,7 @@ minetest.register_node("color_blocks:block_magenta", {
         description = "Magenta Block",
 	tiles = {"blocks_magenta.png"},
 	groups = {choppy=2,flammable=1},
+	is_ground_content = false,
 })
 
 minetest.register_alias("Magenta Block", "color_blocks:block_magenta")
@@ -268,6 +278,7 @@ minetest.register_node("color_blocks:block_orange", {
         description = "Orange Block",
 	tiles = {"blocks_orange.png"},
 	groups = {choppy=2,flammable=1},
+	is_ground_content = false,
 })
 
 minetest.register_alias("Orange Block", "color_blocks:block_orange")
@@ -294,6 +305,7 @@ minetest.register_node("color_blocks:block_pink", {
         description = "Pink Block",
 	tiles = {"blocks_pink.png"},
 	groups = {choppy=2,flammable=1},
+	is_ground_content = false,
 })
 
 minetest.register_alias("Pink Block", "color_blocks:block_pink")
@@ -320,6 +332,7 @@ minetest.register_node("color_blocks:block_red", {
         description = "Red Block",
 	tiles = {"blocks_red.png"},
 	groups = {choppy=2,flammable=1},
+	is_ground_content = false,
 })
 
 minetest.register_alias("Red Block", "color_blocks:block_red")
@@ -346,6 +359,7 @@ minetest.register_node("color_blocks:block_purple", {
         description = "Purple Block",
 	tiles = {"blocks_purple.png"},
 	groups = {choppy=2,flammable=1},
+	is_ground_content = false,
 })
 
 minetest.register_alias("Purple Block", "color_blocks:block_purple")
@@ -373,6 +387,7 @@ minetest.register_node("color_blocks:block_yellow", {
         description = "Yellow Block",
 	tiles = {"blocks_yellow.png"},
 	groups = {choppy=2,flammable=1},
+	is_ground_content = false,
 })
 
 minetest.register_alias("Yellow Block", "color_blocks:block_yellow")
